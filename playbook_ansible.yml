@@ -16,6 +16,8 @@
           - gnupg
         state: present
 
+# Adicionar repositório do docker para garantir a integridade dos arquivos
+
     - name: Adicionar chave GPG da Docker
       shell: |
         install -m 0755 -d /etc/apt/keyrings
