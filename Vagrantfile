@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.hostname = "anderson.nascimento"
 
-  config.vm.network "private_network", ip: "192.168.56.138"
+  config.vm.network "private_network", ip: "192.168.56.108"
 
 # Mantém a chave padrão do Vagrant
   config.ssh.insert_key = false
