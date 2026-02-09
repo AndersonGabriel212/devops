@@ -1,5 +1,7 @@
 # Projeto Devops
 
+Dupla: Anderson Gabriel e Ana Julita
+
 Projeto foi desenvolvido para a disciplina de Administração de Sistemas Abertos. O objetivo é criar uma infraestrutura automatizada para rodar um site WordPress usando Docker, com provisionamento feito pelo Vagrant e configuração automatizada pelo Ansible.
 
 Requisitos: Vagrant, VirtualBox e Ansible previamente instalados
