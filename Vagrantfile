@@ -1,3 +1,7 @@
+
+
+
+
 Vagrant.configure("2") do |config|
 
   config.vm.box = "debian/bookworm64"
@@ -6,6 +10,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "private_network", ip: "192.168.56.138"
 
+# Mantém a chave padrão do Vagrant
   config.ssh.insert_key = false
 
   config.vm.provider "virtualbox" do |vb|
