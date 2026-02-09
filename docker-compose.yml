@@ -1,3 +1,8 @@
+# Responsável por definir a infraestrutura e aplicação em containers ( 3 containers: Banco de dados MySQL , Aplicação do wordpress , Nginx personalizado como proxy e load balancer de camada 4) 
+# Rede interna chamada "wordpress". Dois volumes persistentes, garantindo que os dados do wordpress e do MYSQL não sejam perdidos 
+
+
+
 version: '3.9'
 
 services:
