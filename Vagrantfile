@@ -2,9 +2,9 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "debian/bookworm64"
 
-  config.vm.hostname = "ana.anderson"
+  config.vm.hostname = "anderson.nascimento"
 
-  config.vm.network "private_network", ip: "192.168.56.118"
+  config.vm.network "private_network", ip: "192.168.56.138"
 
   config.ssh.insert_key = false
 
