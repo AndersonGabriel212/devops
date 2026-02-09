@@ -15,7 +15,7 @@ Requisitos: Vagrant, VirtualBox e Ansible previamente instalados
 vagrant up
 
 3. Acesse o WordPress
-Abra o navegador, vá para: http://192.168.56.138:8080 e você verá a página de instalação do WordPress.
+Abra o navegador, vá para: http://192.168.56.108:8080 e você verá a página de instalação do WordPress.
 
 Arquivos do Projeto:
 
