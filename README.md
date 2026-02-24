@@ -32,9 +32,13 @@ Abra o navegador, vá para: http://192.168.56.108:8080 e você verá a página d
 -  Arquivos do Projeto:
 
 . Vagrantfile - Cria a máquina virtual com Debian
+
 . playbook_ansible.yml - Instala Docker e sobe os containers
+
 . docker-compose.yml - Configura os containers WordPress, MySQL e Nginx
+
 . Dockerfile - Cria a imagem personalizada do Nginx
+
 . nginx.conf - Configura o balanceamento de carga
 
 Imagem Docker personalizada:
