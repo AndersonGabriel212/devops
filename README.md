@@ -1,9 +1,8 @@
-# Projeto Docker
+# Projeto Docker-Vagrant-Ansible
 
-Aluno
+Aluno: Anderson Gabriel Souza do Nascimento
 
-Projeto foi desenvolvido para a disciplina de Administração de Sistemas Abertos. O objetivo é criar uma infraestrutura automatizada para rodar um site WordPress usando Docker, com provisionamento feito pelo Vagrant e configuração automatizada pelo Ansible.
-
+O projeto consiste em criar um ambiente de servidor automatizado utilizando o conceito de Infraestrutura como Código (IaC). O objetivo final é que, ao executar um único comando, todo o servidor seja montado, configurado e a aplicação Wordpress esteja rodando em containers
 Requisitos: Vagrant, VirtualBox e Ansible previamente instalados
 
 - Passo a passo:
